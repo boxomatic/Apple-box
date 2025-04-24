@@ -1,3 +1,5 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-11.000001 7.999999000000001 42.000002 14.000002" fill="none" stroke="black" stroke-width="0.6%" vector-effect="non-scaling-stroke">
-    <path d="M 10 19 L -10 19 L -10 11 L 10 11 L 10 9 L 30 9 L 30 21 L 10 21 L 10 19 Z" />
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-11.000001 -5.000001 38.000002 27.000002000000002" fill="none" stroke="black" stroke-width="0.6%" vector-effect="non-scaling-stroke">
+    <path d="M -10 -4 L 10 -4 L 10 4 L -10 4 L -10 -4 Z" />
+    <path d="M 14 -4 L 26 -4 L 26 4 L 14 4 L 14 -4 Z" />
+    <path d="M 5 9 L 10 9 L 10 21 L 5 21 L -5 21 L -10 21 L -10 9 L -5 9 L 5 9 Z" />
 </svg>
