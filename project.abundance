@@ -293,11 +293,216 @@
                     "uniqueID": 1745516985277,
                     "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.20442708333333334,
+                    "y": 0.9300911854103344,
+                    "uniqueID": 1745522845849,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 12
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.17578125,
+                    "y": 0.1945288753799392,
+                    "uniqueID": 1745522845768,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.4772135416666667,
+                    "y": 0.6534954407294833,
+                    "uniqueID": 1745522846497,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1745522845587
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1745522845849
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.296875,
+                    "y": 0.2127659574468085,
+                    "uniqueID": 1745522846451,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745522845768
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -5.625
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.17057291666666666,
+                    "y": 0.40425531914893614,
+                    "uniqueID": 1745522846458,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.306640625,
+                    "y": 0.44376899696048633,
+                    "uniqueID": 1745522846307,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745522846458
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5.7
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Fusion",
+                    "name": "Fusion",
+                    "x": 0.40559895833333337,
+                    "y": 0.3404255319148936,
+                    "uniqueID": 1745522845587,
+                    "ioValues": [
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1745522846451
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1745522846307
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                    "unionType": "Fusion"
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1745522845849,
+                    "ap2ID": 1745522846497
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745522845768,
+                    "ap2ID": 1745522846451
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1745522846451,
+                    "ap2ID": 1745522845587
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745522846458,
+                    "ap2ID": 1745522846307
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1745522846307,
+                    "ap2ID": 1745522845587
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1745522845587,
+                    "ap2ID": 1745522846497
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.5,
+            "y": 0.5,
+            "uniqueID": 1745522813787,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + y"
         }
     ],
     "allConnectors": [
@@ -388,6 +593,6 @@
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
