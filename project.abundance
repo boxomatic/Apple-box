@@ -14,19 +14,14 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1745507202738,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1745514434214
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.34505208333333337,
-            "y": 0.5775075987841946,
+            "x": 0.267379679144385,
+            "y": 0.5835866261398176,
             "uniqueID": 1745507601904,
             "ioValues": [
                 {
@@ -66,6 +61,10 @@
             "uniqueID": 1745513959807,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "xDist",
                     "ioValue": 0
                 },
@@ -83,8 +82,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.45182291666666663,
-            "y": 0.46808510638297873,
+            "x": 0.4423223834988541,
+            "y": 0.5075987841945289,
             "uniqueID": 1745514405975,
             "ioValues": [
                 {
