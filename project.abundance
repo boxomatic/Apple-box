@@ -96,6 +96,54 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.19140625000000003,
+            "y": 0.4924012158054711,
+            "uniqueID": 1745514405975,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745507601904
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 20
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.33203125,
+            "y": 0.2887537993920973,
+            "uniqueID": 1745514434214,
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1745513959807
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": 1745514405975
+                },
+                {
+                    "name": "Shape 3",
+                    "ioValue": 1745507671048
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
@@ -105,6 +153,34 @@
             "ap2Primary": true,
             "ap1ID": 1745507219555,
             "ap2ID": 1745513959807
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1745507601904,
+            "ap2ID": 1745514405975
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1745507671048,
+            "ap2ID": 1745514434214
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1745513959807,
+            "ap2ID": 1745514434214
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1745514405975,
+            "ap2ID": 1745514434214
         }
     ],
     "unitsKey": "Inches",
