@@ -97,8 +97,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.20702826585179526,
-                    "y": 0.8541033434650457,
+                    "x": 0.38197097020626436,
+                    "y": 0.9817629179331308,
                     "uniqueID": 1745522845849,
                     "ioValues": [
                         {
@@ -115,8 +115,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.17417876241405653,
-                    "y": 0.1884498480243161,
+                    "x": 0.17188693659281895,
+                    "y": 0.18541033434650456,
                     "uniqueID": 1745522845768,
                     "ioValues": [
                         {
@@ -236,6 +236,94 @@
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.17188693659281895,
+                    "y": 0.6261398176291794,
+                    "uniqueID": 1745529676504,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 0.75
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.1145912910618793,
+                    "y": 0.8662613981762918,
+                    "uniqueID": 1745529709813,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 0.75
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3300229182582124,
+                    "y": 0.8601823708206686,
+                    "uniqueID": 1745529862145,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745529709813
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": -9.625
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3800229182582124,
+                    "y": 0.8101823708206686,
+                    "uniqueID": 1745529931802,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745529709813
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": -9.625
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
