@@ -1400,8 +1400,8 @@
         {
             "atomType": "Molecule",
             "name": "Face",
-            "x": 0.24216959511077157,
-            "y": 0.12765957446808512,
+            "x": 0.2375859434682964,
+            "y": 0.11246200607902736,
             "uniqueID": 1745763570101,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1416,7 +1416,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1745794321911
+                            "ioValue": 1745794810752
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -1729,9 +1729,9 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7249809014514896,
+                    "x": 0.7318563789152025,
                     "y": 0.4133738601823708,
-                    "uniqueID": 1745794321911,
+                    "uniqueID": 1745794810752,
                     "ioValues": [
                         {
                             "name": "Shape 1",
@@ -1751,7 +1751,7 @@
                     "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1745763660458,
-                    "ap2ID": 1745794321911
+                    "ap2ID": 1745794810752
                 },
                 {
                     "ap1Name": "geometry",
@@ -1814,7 +1814,7 @@
                     "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": 1745792942609,
-                    "ap2ID": 1745794321911
+                    "ap2ID": 1745794810752
                 },
                 {
                     "ap1Name": "number",
@@ -1911,7 +1911,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1745794321911,
+                    "ap1ID": 1745794810752,
                     "ap2ID": 1745763570215
                 }
             ],
