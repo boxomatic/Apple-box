@@ -86,19 +86,14 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1745528692586,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1745764801768
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.43926661573720394,
-                    "y": 0.8693009118541033,
+                    "x": 0.6470588235294118,
+                    "y": 0.1033434650455927,
                     "uniqueID": 1745528708190,
                     "ioValues": [
                         {
@@ -149,37 +144,6 @@
                     "description": "Creates a new rectangle."
                 },
                 {
-                    "atomType": "Fusion",
-                    "name": "Fusion",
-                    "x": 0.7532467532467532,
-                    "y": 0.3221884498480243,
-                    "uniqueID": 1745528973610,
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": 1745529007682
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1745529047055
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": 1745528708190
-                        },
-                        {
-                            "name": "Shape 4",
-                            "ioValue": 1745530552073
-                        },
-                        {
-                            "name": "Shape 5",
-                            "ioValue": 1745530552635
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Fusion"
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.4125286478227655,
@@ -188,7 +152,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745528851077
+                            "ioValue": 1745789255358
                         },
                         {
                             "name": "xDist",
@@ -214,7 +178,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745528866722
+                            "ioValue": 1745789277345
                         },
                         {
                             "name": "xDist",
@@ -276,7 +240,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745530552381
+                            "ioValue": 1745789283552
                         },
                         {
                             "name": "xDist",
@@ -302,7 +266,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745530552815
+                            "ioValue": 1745789280706
                         },
                         {
                             "name": "xDist",
@@ -322,8 +286,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "CornerRelief",
-                    "x": 0.5042016806722689,
-                    "y": 0.9331306990881458,
+                    "x": 0.5576776165011459,
+                    "y": 0.9057750759878419,
                     "uniqueID": 1745531385939,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1007,18 +971,94 @@
                     "compiledBom": []
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.3315508021390374,
+                    "y": 0.12765957446808512,
+                    "uniqueID": 1745789255358,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745528851077
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.3155080213903743,
+                    "y": 0.3465045592705167,
+                    "uniqueID": 1745789277345,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745528866722
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.3002291825821237,
+                    "y": 0.574468085106383,
+                    "uniqueID": 1745789280706,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745530552815
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.2773109243697479,
+                    "y": 0.844984802431611,
+                    "uniqueID": 1745789283552,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745530552381
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8296409472880061,
-                    "y": 0.5683890577507599,
-                    "uniqueID": 1745764801768,
+                    "x": 0.7967914438502673,
+                    "y": 0.5440729483282675,
+                    "uniqueID": 1745789362823,
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": 1745528973610
+                            "ioValue": 1745528708190
                         },
                         {
                             "name": "Shape 2",
+                            "ioValue": 1745529007682
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1745529047055
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": 1745530552073
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": 1745530552635
+                        },
+                        {
+                            "name": "Shape 6",
                             "ioValue": 1745531385939
                         }
                     ],
@@ -1028,87 +1068,101 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
+                    "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1745528708190,
-                    "ap2ID": 1745528973610
+                    "ap2ID": 1745789362823
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745528851077,
-                    "ap2ID": 1745529007682
+                    "ap2ID": 1745789255358
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745528866722,
-                    "ap2ID": 1745529047055
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 1745528973610,
-                    "ap2ID": 1745764801768
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 1745529007682,
-                    "ap2ID": 1745528973610
+                    "ap2ID": 1745789277345
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
                     "ap2Primary": false,
+                    "ap1ID": 1745529007682,
+                    "ap2ID": 1745789362823
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
                     "ap1ID": 1745529047055,
-                    "ap2ID": 1745528973610
+                    "ap2ID": 1745789362823
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745530552815,
-                    "ap2ID": 1745530552073
+                    "ap2ID": 1745789280706
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745530552381,
-                    "ap2ID": 1745530552635
+                    "ap2ID": 1745789283552
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 5",
                     "ap2Primary": false,
                     "ap1ID": 1745530552635,
-                    "ap2ID": 1745528973610
+                    "ap2ID": 1745789362823
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 4",
                     "ap2Primary": false,
                     "ap1ID": 1745530552073,
-                    "ap2ID": 1745528973610
+                    "ap2ID": 1745789362823
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "Shape 2",
+                    "ap2Name": "Shape 6",
                     "ap2Primary": false,
                     "ap1ID": 1745531385939,
-                    "ap2ID": 1745764801768
+                    "ap2ID": 1745789362823
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1745764801768,
-                    "ap2ID": 1745528692586
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745789255358,
+                    "ap2ID": 1745529007682
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745789277345,
+                    "ap2ID": 1745529047055
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745789280706,
+                    "ap2ID": 1745530552073
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745789283552,
+                    "ap2ID": 1745530552635
                 }
             ],
             "fileTypeVersion": 1,
@@ -1578,8 +1632,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.5859434682964094,
-                    "y": 0.7689969604863222,
+                    "x": 0.533231474407945,
+                    "y": 0.1337386018237082,
                     "uniqueID": 1745763660458,
                     "ioValues": [
                         {
