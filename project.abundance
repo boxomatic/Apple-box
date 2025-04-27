@@ -115,8 +115,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.2245989304812834,
-                    "y": 0.12462006079027357,
+                    "x": 0.22765469824293352,
+                    "y": 0.1702127659574468,
                     "uniqueID": 1745528851077,
                     "ioValues": [
                         {
@@ -290,7 +290,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "CornerRelief",
+                    "name": "EndCornerRelief",
                     "x": 0.5576776165011459,
                     "y": 0.9057750759878419,
                     "uniqueID": 1745531385939,
@@ -833,8 +833,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7012987012987013,
-                    "y": 0.4650455927051672,
+                    "x": 0.6967150496562261,
+                    "y": 0.46808510638297873,
                     "uniqueID": 1745789636306,
                     "ioValues": [
                         {
@@ -862,6 +862,16 @@
                     ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Stock Thickness",
+                    "x": 0.0748663101604278,
+                    "y": 0.5167173252279635,
+                    "uniqueID": 1745797159059,
+                    "ioValues": [],
+                    "description": "Defines a mathematical constant.",
+                    "value": 0.75
                 }
             ],
             "allConnectors": [
@@ -955,6 +965,34 @@
                     "ap2Primary": false,
                     "ap1ID": 1745789772484,
                     "ap2ID": 1745789636306
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1745797159059,
+                    "ap2ID": 1745528851077
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1745797159059,
+                    "ap2ID": 1745528866722
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 1745797159059,
+                    "ap2ID": 1745530552815
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 1745797159059,
+                    "ap2ID": 1745530552381
                 }
             ],
             "fileTypeVersion": 1,
@@ -1400,8 +1438,8 @@
         {
             "atomType": "Molecule",
             "name": "Face",
-            "x": 0.2375859434682964,
-            "y": 0.11246200607902736,
+            "x": 0.22841864018334607,
+            "y": 0.0911854103343465,
             "uniqueID": 1745763570101,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
