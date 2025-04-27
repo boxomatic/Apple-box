@@ -81,20 +81,6 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1745516985277,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1745522846497
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 0.39113827349121466,
@@ -131,24 +117,6 @@
                     "description": "Creates a new rectangle."
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.5584415584415584,
-                    "y": 0.6413373860182371,
-                    "uniqueID": 1745522846497,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": 1745762998334
-                        },
-                        {
-                            "name": "geometry1",
-                            "ioValue": 1745522845849
-                        }
-                    ],
-                    "description": "Subtracts shape two from shape one."
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.296875,
@@ -157,7 +125,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745522845768
+                            "ioValue": 1745763307761
                         },
                         {
                             "name": "xDist",
@@ -347,29 +315,39 @@
                     ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1.03,
+                    "y": 0.45,
+                    "uniqueID": 1745763307399,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.24064171122994651,
+                    "y": 0.0851063829787234,
+                    "uniqueID": 1745763307761,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745522845768
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
                 }
             ],
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 1745522845849,
-                    "ap2ID": 1745522846497
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745522845768,
-                    "ap2ID": 1745522846451
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1745522846497,
-                    "ap2ID": 1745516985277
+                    "ap2ID": 1745763307761
                 },
                 {
                     "ap1Name": "geometry",
@@ -429,10 +407,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 1745762998334,
-                    "ap2ID": 1745522846497
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745763307761,
+                    "ap2ID": 1745522846451
                 }
             ],
             "fileTypeVersion": 1,
@@ -1760,13 +1738,6 @@
             "ap2Primary": false,
             "ap1ID": 1745514434214,
             "ap2ID": 1745507202738
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1745516984516,
-            "ap2ID": 1745513959807
         },
         {
             "ap1Name": "Geometry",
