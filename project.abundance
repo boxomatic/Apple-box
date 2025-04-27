@@ -1460,8 +1460,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4255156608097785,
-                    "y": 0.11246200607902736,
+                    "x": 0.4163483575248281,
+                    "y": 0.1033434650455927,
                     "uniqueID": 1745763660103,
                     "ioValues": [
                         {
@@ -1504,8 +1504,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4102368220015279,
-                    "y": 0.3069908814589666,
+                    "x": 0.40488922841864017,
+                    "y": 0.3282674772036474,
                     "uniqueID": 1745763659866,
                     "ioValues": [
                         {
@@ -1683,6 +1683,21 @@
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
                     "value": 0.75
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-(6 - x / 2)",
+                    "x": 0.31932773109243695,
+                    "y": 0.1945288753799392,
+                    "uniqueID": 1745793713274,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "-(6 - x / 2)"
                 }
             ],
             "allConnectors": [
@@ -1797,6 +1812,20 @@
                     "ap2Primary": false,
                     "ap1ID": 1745793296252,
                     "ap2ID": 1745763660630
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745793296252,
+                    "ap2ID": 1745793713274
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1745793713274,
+                    "ap2ID": 1745763660103
                 }
             ],
             "fileTypeVersion": 1,
