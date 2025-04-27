@@ -1452,7 +1452,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.75
+                            "ioValue": 2
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1474,7 +1474,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -5.625
+                            "ioValue": -5
                         },
                         {
                             "name": "zDist",
@@ -1496,7 +1496,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 0.75
+                            "ioValue": 2
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1518,7 +1518,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 5.625
+                            "ioValue": 5
                         },
                         {
                             "name": "zDist",
@@ -1536,7 +1536,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.75
+                            "ioValue": 2
                         },
                         {
                             "name": "y length",
@@ -1554,7 +1554,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 0.75
+                            "ioValue": 2
                         },
                         {
                             "name": "y length",
@@ -1576,7 +1576,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 9.63
+                            "ioValue": -9
                         },
                         {
                             "name": "yDist",
@@ -1592,8 +1592,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.37161955691367454,
-                    "y": 0.5791793313069908,
+                    "x": 0.4071810542398777,
+                    "y": 0.5957446808510638,
                     "uniqueID": 1745763659910,
                     "ioValues": [
                         {
@@ -1602,7 +1602,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -9.625
+                            "ioValue": -9
                         },
                         {
                             "name": "yDist",
@@ -1682,7 +1682,7 @@
                     "uniqueID": 1745793296252,
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 0.75
+                    "value": 2
                 },
                 {
                     "atomType": "Equation",
@@ -1693,11 +1693,56 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0.75
+                            "ioValue": 2
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "-(6 - x / 2)"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "(6 - x / 2)",
+                    "x": 0.3116883116883117,
+                    "y": 0.4316109422492402,
+                    "uniqueID": 1745793907301,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 2
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "(6 - x / 2)"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-(10 - x / 2)",
+                    "x": 0.30710466004583653,
+                    "y": 0.6747720364741642,
+                    "uniqueID": 1745794003105,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 2
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "-(10 - x / 2)"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "-(10 - x / 2)",
+                    "x": 0.30557677616501144,
+                    "y": 0.9118541033434651,
+                    "uniqueID": 1745794118058,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 2
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "-(10 - x / 2)"
                 }
             ],
             "allConnectors": [
@@ -1821,11 +1866,53 @@
                     "ap2ID": 1745793713274
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745793296252,
+                    "ap2ID": 1745793907301
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745793296252,
+                    "ap2ID": 1745794003105
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745793296252,
+                    "ap2ID": 1745794118058
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap2Primary": false,
                     "ap1ID": 1745793713274,
                     "ap2ID": 1745763660103
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1745793907301,
+                    "ap2ID": 1745763659866
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1745794003105,
+                    "ap2ID": 1745763659910
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1745794118058,
+                    "ap2ID": 1745763659996
                 }
             ],
             "fileTypeVersion": 1,
