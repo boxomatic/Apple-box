@@ -31,7 +31,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1745763570101
                 },
                 {
                     "name": "xDist",
@@ -1380,8 +1380,8 @@
         {
             "atomType": "Molecule",
             "name": "Face",
-            "x": 0.22612681436210846,
-            "y": 0.11550151975683892,
+            "x": 0.239877769289534,
+            "y": 0.12462006079027357,
             "uniqueID": 1745763570101,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1440,13 +1440,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.395301757066463,
-                    "y": 0.18100303951367785,
+                    "x": 0.4255156608097785,
+                    "y": 0.11246200607902736,
                     "uniqueID": 1745763660103,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745763659738
+                            "ioValue": 1745763949614
                         },
                         {
                             "name": "xDist",
@@ -1466,8 +1466,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.22057291666666667,
-                    "y": 0.35425531914893615,
+                    "x": 0.19862490450725745,
+                    "y": 0.3617021276595745,
                     "uniqueID": 1745763660069,
                     "ioValues": [
                         {
@@ -1484,13 +1484,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.356640625,
-                    "y": 0.39376899696048634,
+                    "x": 0.4102368220015279,
+                    "y": 0.3069908814589666,
                     "uniqueID": 1745763659866,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745763660069
+                            "ioValue": 1745763985283
                         },
                         {
                             "name": "xDist",
@@ -1552,7 +1552,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745763660630
+                            "ioValue": 1745763986680
                         },
                         {
                             "name": "xDist",
@@ -1578,7 +1578,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745763660359
+                            "ioValue": 1745763986175
                         },
                         {
                             "name": "xDist",
@@ -1596,25 +1596,10 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.5790679908326967,
-                    "y": 0.39209726443768994,
-                    "uniqueID": 1745763713940,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1745763738207
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 22
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.4514896867838044,
-                    "y": 0.37993920972644374,
+                    "x": 0.5385790679908328,
+                    "y": 0.43465045592705165,
                     "uniqueID": 1745763738207,
                     "ioValues": [
                         {
@@ -1639,20 +1624,80 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6562261268143621,
-                    "y": 0.5045592705167173,
+                    "x": 0.653170359052712,
+                    "y": 0.5167173252279635,
                     "uniqueID": 1745763794265,
                     "ioValues": [
                         {
-                            "name": "Shape 1",
-                            "ioValue": 1745763713940
-                        },
-                        {
                             "name": "Shape 2",
                             "ioValue": 1745763660458
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1745763738207
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.29488158899923606,
+                    "y": 0.11854103343465046,
+                    "uniqueID": 1745763949614,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745763659738
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.2902979373567609,
+                    "y": 0.33434650455927056,
+                    "uniqueID": 1745763985283,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745763660069
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.30710466004583653,
+                    "y": 0.6170212765957447,
+                    "uniqueID": 1745763986175,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745763660359
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.2719633307868602,
+                    "y": 0.8054711246200609,
+                    "uniqueID": 1745763986680,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745763660630
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 22
                 }
             ],
             "allConnectors": [
@@ -1668,7 +1713,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745763659738,
-                    "ap2ID": 1745763660103
+                    "ap2ID": 1745763949614
                 },
                 {
                     "ap1Name": "geometry",
@@ -1682,7 +1727,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745763660069,
-                    "ap2ID": 1745763659866
+                    "ap2ID": 1745763985283
                 },
                 {
                     "ap1Name": "geometry",
@@ -1696,14 +1741,14 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745763660359,
-                    "ap2ID": 1745763659910
+                    "ap2ID": 1745763986175
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1745763660630,
-                    "ap2ID": 1745763659996
+                    "ap2ID": 1745763986680
                 },
                 {
                     "ap1Name": "geometry",
@@ -1721,17 +1766,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
+                    "ap2Name": "Shape 3",
                     "ap2Primary": false,
-                    "ap1ID": 1745763713940,
-                    "ap2ID": 1745763794265
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745763738207,
-                    "ap2ID": 1745763713940
+                    "ap2ID": 1745763794265
                 },
                 {
                     "ap1Name": "geometry",
@@ -1739,10 +1777,38 @@
                     "ap2Primary": false,
                     "ap1ID": 1745763794265,
                     "ap2ID": 1745763570215
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745763949614,
+                    "ap2ID": 1745763660103
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745763985283,
+                    "ap2ID": 1745763659866
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745763986175,
+                    "ap2ID": 1745763659910
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745763986680,
+                    "ap2ID": 1745763659996
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         }
     ],
     "allConnectors": [
@@ -1780,6 +1846,13 @@
             "ap2Primary": false,
             "ap1ID": 1745528917754,
             "ap2ID": 1745514434214
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1745763570101,
+            "ap2ID": 1745513959807
         }
     ],
     "unitsKey": "Inches",
