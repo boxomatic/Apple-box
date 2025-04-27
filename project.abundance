@@ -1452,7 +1452,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 2
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1474,7 +1474,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -5
+                            "ioValue": -5.625
                         },
                         {
                             "name": "zDist",
@@ -1496,7 +1496,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 2
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1518,7 +1518,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 5
+                            "ioValue": 5.625
                         },
                         {
                             "name": "zDist",
@@ -1536,7 +1536,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 2
+                            "ioValue": 0.75
                         },
                         {
                             "name": "y length",
@@ -1554,7 +1554,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 2
+                            "ioValue": 0.75
                         },
                         {
                             "name": "y length",
@@ -1576,7 +1576,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -9
+                            "ioValue": 9.625
                         },
                         {
                             "name": "yDist",
@@ -1602,7 +1602,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -9
+                            "ioValue": -9.625
                         },
                         {
                             "name": "yDist",
@@ -1638,7 +1638,7 @@
                     "uniqueID": 1745793296252,
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 2
+                    "value": 0.75
                 },
                 {
                     "atomType": "Equation",
@@ -1649,7 +1649,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 2
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1664,7 +1664,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 2
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1679,7 +1679,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 2
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1687,24 +1687,24 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "-(10 - x / 2)",
+                    "name": "(10 - x / 2)",
                     "x": 0.30557677616501144,
                     "y": 0.9118541033434651,
                     "uniqueID": 1745794118058,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 2
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "-(10 - x / 2)"
+                    "currentEquation": "(10 - x / 2)"
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5087853323147441,
-                    "y": 0.40425531914893614,
+                    "x": 0.49656226126814357,
+                    "y": 0.3951367781155015,
                     "uniqueID": 1745794266968,
                     "ioValues": [
                         {
