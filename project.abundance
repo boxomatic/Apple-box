@@ -1400,8 +1400,8 @@
         {
             "atomType": "Molecule",
             "name": "Face",
-            "x": 0.239877769289534,
-            "y": 0.12462006079027357,
+            "x": 0.24216959511077157,
+            "y": 0.12765957446808512,
             "uniqueID": 1745763570101,
             "ioValues": [
                 {
@@ -1421,7 +1421,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1745763794265
+                            "ioValue": 1745793182741
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -1647,24 +1647,6 @@
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.6944232238349886,
-                    "y": 0.48632218844984804,
-                    "uniqueID": 1745763794265,
-                    "ioValues": [
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1745763660458
-                        },
-                        {
-                            "name": "Shape 4",
-                            "ioValue": 1745792942609
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                },
-                {
                     "atomType": "Input",
                     "name": "stock thickness",
                     "x": 0.04,
@@ -1688,15 +1670,43 @@
                     ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 22
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7242169595110772,
+                    "y": 0.39209726443768994,
+                    "uniqueID": 1745793182741,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1745763660458
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1745792942609
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 0.04048892284186402,
+                    "y": 0.8358662613981763,
+                    "uniqueID": 1745793296252,
+                    "ioValues": [],
+                    "description": "Defines a mathematical constant.",
+                    "value": 10
                 }
             ],
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
+                    "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1745763660458,
-                    "ap2ID": 1745763794265
+                    "ap2ID": 1745793182741
                 },
                 {
                     "ap1Name": "geometry",
@@ -1762,13 +1772,6 @@
                     "ap2ID": 1745792942609
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1745763794265,
-                    "ap2ID": 1745763570215
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
                     "ap2Primary": false,
@@ -1798,10 +1801,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 4",
+                    "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": 1745792942609,
-                    "ap2ID": 1745763794265
+                    "ap2ID": 1745793182741
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1745793182741,
+                    "ap2ID": 1745763570215
                 }
             ],
             "fileTypeVersion": 1,
