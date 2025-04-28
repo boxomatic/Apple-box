@@ -39,7 +39,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 15
+                    "ioValue": 11.5
                 },
                 {
                     "name": "zDist",
@@ -51,8 +51,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5668449197860963,
-            "y": 0.5531914893617021,
+            "x": 0.5645530939648586,
+            "y": 0.5167173252279635,
             "uniqueID": 1745514434214,
             "ioValues": [
                 {
@@ -2220,7 +2220,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 20
+                    "ioValue": 17.5
                 },
                 {
                     "name": "yDist",
