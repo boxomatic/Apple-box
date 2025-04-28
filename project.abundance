@@ -3708,6 +3708,17 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.0985485103132162,
+            "y": 0.43465045592705165,
+            "uniqueID": 1745844510770,
+            "ioValues": [],
+            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+            "readmeText": "Todo\n- Fix to the side and end dimentions to match standard apple box dimentions. The dimentions will have to be calculated and include stock thickness.",
+            "global": true
         }
     ],
     "allConnectors": [
