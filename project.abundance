@@ -51,8 +51,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5637891520244461,
-            "y": 0.5835866261398176,
+            "x": 0.5668449197860963,
+            "y": 0.5531914893617021,
             "uniqueID": 1745514434214,
             "ioValues": [
                 {
@@ -2504,10 +2504,6 @@
                         {
                             "name": "Shape 2",
                             "ioValue": 1745792942609
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": 1745800558442
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -3545,58 +3541,6 @@
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-                },
-                {
-                    "atomType": "Text",
-                    "name": "Text",
-                    "x": 0.453781512605042,
-                    "y": 0.8328267477203647,
-                    "uniqueID": 1745800492101,
-                    "ioValues": [],
-                    "description": "Creates a new text sketch.",
-                    "fontFamily": "ROBOTO",
-                    "selectedFontIndex": 1
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.6157372039724981,
-                    "y": 0.7963525835866261,
-                    "uniqueID": 1745800558442,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1745800612555
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 22
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.5309396485867074,
-                    "y": 0.9148936170212767,
-                    "uniqueID": 1745800612555,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1745800492101
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": -4
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -1.9
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -3760,27 +3704,6 @@
                     "ap2Primary": true,
                     "ap1ID": 1745798179892,
                     "ap2ID": 1745763659996
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1745800492101,
-                    "ap2ID": 1745800612555
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 1745800558442,
-                    "ap2ID": 1745794810752
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1745800612555,
-                    "ap2ID": 1745800558442
                 }
             ],
             "fileTypeVersion": 1,
